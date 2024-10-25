@@ -124,6 +124,14 @@ article{
 .col-18{
     grid-column: span 18;
 }
+
+.col-10{
+    grid-column: span 10;
+}
+
+.col-9{
+    grid-column: span 9;
+}
 .col-12{
     grid-column: span 12;
 }
@@ -134,6 +142,10 @@ article{
 
 .col-6{
     grid-column: span 6;
+}
+
+.col-4{
+    grid-column: span 4;
 }
 
 div.col-6 article:first-child{
@@ -171,4 +183,24 @@ footer{
 }
 footer h1{
     color:#fff;
+}
+
+.tarot figure{
+height: 100%;
+}
+.tarot img{
+    height: 100%;
+}
+.img-400 {
+height: 250px;
+}
+
+.tarot .sobre{
+    border-radius: 45px;
+}
+
+.tarot header{
+    text-align: center;
+    margin: 50px;
+
 }
