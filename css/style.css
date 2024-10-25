@@ -39,12 +39,13 @@ body{
     flex: 1;
 }
 
-h1{     
+h1 img{     
     padding: 20px 0;
         font-size: 80px;
         font-family: "Germania One", serif;
         font-weight: 400;
-        font-style: normal;     
+        font-style: normal;    
+        height: 80px; 
 }
 
 h2{
@@ -103,7 +104,10 @@ article{
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     grid-gap: 30px;
+    padding-bottom: 30px;
 }
+
+
 
 .bloque-vw.main-section{
     background: #4e9e6b;
@@ -159,4 +163,12 @@ article.opiniones figure img{
     transform: translateX(-50%);
     padding: 10px;
     top: 10px;
+}
+
+
+footer{
+    background: #4c4c4c;
+}
+footer h1{
+    color:#fff;
 }
