@@ -26,8 +26,12 @@ body{
     height: 400px;
 }
 
+h1,h2,h3,h4,h5,p,a{
+    color: #ffff;
+}
+
 .bloque-vw.flex{
-    background: #f2f2f2;
+    background: #a68ac5;
 }
 
 .nav.flex{
@@ -93,17 +97,18 @@ article{
 
 .parrafo{
     font-size: 22px;
+    color: #fff;
 }
 
 .bloque{
-    margin: 0 auto;
-    max-width: 1200px;
+    margin: 0 5%;
+    
 }
 
 .grilla{
     display: grid;
     grid-template-columns: repeat(24, 1fr);
-    grid-gap: 30px;
+    grid-gap: 45px;
     padding-bottom: 30px;
 }
 
@@ -140,6 +145,9 @@ article{
     grid-column: span 8;
 }
 
+.col-7{
+    grid-column: span 7;
+}
 .col-6{
     grid-column: span 6;
 }
@@ -157,7 +165,7 @@ div.col-6 article:first-child{
 }
 
 .sobre{
-    background: #f3f3f3;
+    background: #a68ac5;
     border-radius: 10px;
 }
 
@@ -192,7 +200,7 @@ height: 100%;
     height: 100%;
 }
 .img-400 {
-height: 250px;
+height: 320px;
 }
 
 .tarot .sobre{
@@ -203,4 +211,91 @@ height: 250px;
     text-align: center;
     margin: 50px;
 
+}
+
+.ofertas{
+   
+    margin: 0 15%;
+    margin-top: 170px;
+    background:#a68ac5;
+    border-radius: 45px;
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+    background: rgb(166,138,197);
+    background: linear-gradient(22deg, rgba(166,138,197,1) 50%, rgba(191,158,213,1) 76%);
+}
+.ofertas header{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 5px  5% ;
+}
+
+.ofertas span{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    right: 10%;
+    font-size: 47px;
+    font-weight: 600;
+    color: #fff;
+}
+.ofertas::after{
+    content: "";
+    display: block;
+    height: 350px;
+    width: 600px;
+    position: absolute;
+    background: #a68ac5;
+    top: -15%;
+    right:-10%;
+    border-radius: 100% 100% 90% 100%;
+   
+}
+.ofertas h3{
+    font-size: 33px;
+    color: #fff;
+}
+.ofertas p{
+    color: #fff;
+    font-size: 31px;
+}
+
+
+.ofertas button{
+    
+    border: none;
+    padding:5px 15px;
+    position: relative;
+    width:fit-content;
+    font-size:28px ;
+    height: 57px;
+    background: #f2f2f2;
+    border-radius: 50px;
+    
+}
+
+.ofertas button a{
+    color: #a68ac5;
+}
+.contacto{
+    margin: 0 10%;
+    display: flex;
+}
+.contacto .formulario{
+
+    background: #a68ac5;
+    width: 50%;
+}
+.contacto form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto .info,.contacto p,.contacto .info h3{
+    color: #000;   width: 50%;
 }
